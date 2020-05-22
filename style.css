@@ -1,0 +1,111 @@
+
+.flx {
+    background-color: gray;
+    display: grid;
+    padding: 0;
+    margin: 0;            
+    border: 0;
+    grid-gap: 0;
+    grid-template-columns: repeat(autfit, 1fr);
+    grid-template-rows: repeat(autfit, 4);
+    justify-content: center;
+    
+}
+
+.btn {
+    display: flex;
+    margin: 12px;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 420px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    margin-bottom: 12px;
+}
+
+#current-icon {       
+    border: none;   
+    display: flex;
+    height: 320px;
+    width: 420px;
+}
+
+#dispmsg {
+    border: 2px solid black;
+    height: 130px;
+    width: 450px;
+    font-size: 50px;
+}
+
+#temperature-icon {
+    width: 20px;
+    height: 23px;
+}
+
+#current-temperature {
+    width: 165px;
+}
+
+
+.weather-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: hsla(150, 64%, 69%, 0.308);
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 6px;
+}
+
+a {
+    width: 200px;
+    font-size: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Fresca', sans-serif;
+    letter-spacing: 0.2px;
+    cursor: default;
+}
+
+#current-temperature {
+    cursor: pointer;
+}
+
+#getWeather {
+    margin: 6px;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 420px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Fresca', sans-serif;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    color: hsl(216, 100%, 60%); 
+    transition: 0.5s;
+}
+
+#getWeather:hover {
+    background-color: hsla(216, 100%, 60%, 0.8);
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#getWeather:active {
+  background-color: hsl(216, 100%, 90%);
+  color: #FFFFFF;
+}
